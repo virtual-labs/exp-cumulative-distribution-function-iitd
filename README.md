@@ -1,10 +1,10 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b>Department of Mathematics 
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b> Probability and Statistics Lab
+<b> Experiment|     <b> 1. Cumulative distribution function
 
 ### About the Experiment 
 
