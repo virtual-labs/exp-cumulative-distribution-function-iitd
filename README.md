@@ -12,9 +12,9 @@ Fill a brief description of this experiment here
 
 <b>Name of Developer | <b> Prof. S. Dharmaraja 
 :--|:--|
-<b>Indian Institute of Technology| <b>  
-<b>  dharmar@maths.iitd.ac.in|     <b>  
-<b> Department of Mathematics |  
+<b> Institute| <b> Indian Institute of Technology 
+<b> Email ID|     <b>  dharmar@maths.iitd.ac.in 
+<b> Depatment |     <b> Department of Mathematics   
 
 ### Contributors List
 
