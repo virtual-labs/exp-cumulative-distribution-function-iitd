@@ -18,5 +18,5 @@ $P(X=b)=F_x(b)-\lim _{x \rightarrow b-} F_x(x)$
 The cumulative distribution function $\mathrm{F}_{\mathrm{x}}(\mathrm{x})$ of a random variable has the following important properties:
 - Every CDF $F_x$ is non decreasing and right continuous
 $\lim _{x \rightarrow-\infty}F_x(x)=0 \text{ and }\lim _{x \rightarrow+\infty}F_x(x)=1$
-- For all real numbers $a$ and $b$ with continuous random variable X, then the function $f_x$ is equal to the derivative of $F_x$, such that
+- For all real numbers $a$ and $b$ with continuous random variable X, then the function $f_x$ is equal to the derivative of $F_x$ , such that
 $F_{X}(b)-F_{X}(a)=P(a < X \leq b)=\int_{a}^{b}f_{X}(x)d x$
