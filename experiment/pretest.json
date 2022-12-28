@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "The cumulative distribution function of a random variable x is the probability that X takes the value?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "less than or equal to x",
+        "b": "equal to x",
+        "c": "greater than x",
+        "d": "zero"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
