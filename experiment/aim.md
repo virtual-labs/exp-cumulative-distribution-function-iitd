@@ -1,1 +1,1 @@
-### To give real life 
+### This experiment aims to provide graphical representation of the cumulative distribution function for the corresponding random variable and to calculate the probability of an certain event using cumulative distribution function.
