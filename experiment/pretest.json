@@ -10,10 +10,10 @@
         "d": "zero"
       },
       "explanations": {
-        "a": "Let $X$ be a real random variable. The function $F_X$ defined over $R$ through $F_X(x)  :=P_X((-\infty, x]) =P(X \leq x)$",
-        "b": "Let $X$ be a real random variable. The function $F_X$ defined over $R$ through $F_X(x)  :=P_X((-\infty, x]) =P(X \leq x)$",
-        "c": "Let $X$ be a real random variable. The function $F_X$ defined over $R$ through $F_X(x)  :=P_X((-\infty, x]) =P(X \leq x)$",
-        "d": "Let $X$ be a real random variable. The function $F_X$ defined over $R$ through $F_X(x)  :=P_X((-\infty, x]) =P(X \leq x)$"
+        "a": "Let $X$ be a real random variable. The function $F_X$ defined over $R$ through $F_X(x)  :=P_X((-infinity, x]) =P(X =< x)$",
+        "b": "Let $X$ be a real random variable. The function $F_X$ defined over $R$ through $F_X(x)  :=P_X((-infinity, x]) =P(X =< x)$",
+        "c": "Let $X$ be a real random variable. The function $F_X$ defined over $R$ through $F_X(x)  :=P_X((-infinity, x]) =P(X =< x)$",
+        "d": "Let $X$ be a real random variable. The function $F_X$ defined over $R$ through $F_X(x)  :=P_X((-infinity, x]) =P(X =< x)$"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -51,6 +51,42 @@
         "d": " Given that P(-1) =0.5 and P(1) =0.5. So, at all other points, p must be zero as the sum of all probabilities must be 1. F(X) is the cumulative distribution function and let P is the probability and given X is random variable, So F(X) = P[X ≤ x] F(-1)=P(X <= -1 = P(x = -1) =0.5 and F(1)=P(X <= 1) =P(x = -1) + P(x = 1) =0.5 + 0.5 =1"  },
       "correctAnswer": "c",
       "difficulty": "beginner"
+
+
+
+       "question": "The probability cumulative distribution must be monotone and ?",
+      "answers": {
+        "a": "increasing",
+        "b": "decreasing",
+        "c": "non-increasing",
+        "d": "non-decreasing"
+      },
+      "explanations": {
+        "a": "CDF is the summation of the Probabilities of discrete random variables. So CDF is always non-decreasing with finitely many jump-discontinuities. ",
+        "b": "CDF is the summation of the Probabilities of discrete random variables. So CDF is always non-decreasing with finitely many jump-discontinuities.  ",
+        "c": "CDF is the summation of the Probabilities of discrete random variables. So CDF is always non-decreasing with finitely many jump-discontinuities. ",
+        "d": " CDF is the summation of the Probabilities of discrete random variables. So CDF is always non-decreasing with finitely many jump-discontinuities. "  },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+
+
+
+
+       "question": "Consider a discrete random variable Y that takes values -2, -1, 0, 1, and 2 with probability 0.2 each. The values of the cumulative distribution function G(y) at y = -1 and y = 1 are ?",
+      "answers": {
+        "a": "0.4 and 0.8",
+        "b": "0 and 1",
+        "c": "0.4 and 0.6",
+        "d": "1 and 0"
+      },
+      "explanations": {
+        "a": "G(-1) = p(-2) + p(-1) = 0.2 + 0.2 = 0.4 and G(1) = p(-2) + p(-1) + p(0) + p(1) = 0.2 + 0.2 + 0.2 + 0.2 = 0.8. ",
+        "b": "G(-1) = p(-2) + p(-1) = 0.2 + 0.2 = 0.4 and G(1) = p(-2) + p(-1) + p(0) + p(1) = 0.2 + 0.2 + 0.2 + 0.2 = 0.8.   ",
+        "c": "G(-1) = p(-2) + p(-1) = 0.2 + 0.2 = 0.4 and G(1) = p(-2) + p(-1) + p(0) + p(1) = 0.2 + 0.2 + 0.2 + 0.2 = 0.8.  ",
+        "d": " G(-1) = p(-2) + p(-1) = 0.2 + 0.2 = 0.4 and G(1) = p(-2) + p(-1) + p(0) + p(1) = 0.2 + 0.2 + 0.2 + 0.2 = 0.8.  "  },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+
 
 }
     ]
