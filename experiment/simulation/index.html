@@ -5,7 +5,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	<link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
 	<link rel="stylesheet" href="./css/main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Exo:ital@1&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/1.4.5/jsxgraph.min.css">
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.1/math.js"></script>
@@ -18,6 +24,26 @@
 </head>
 
 <body>
+	<div class="form-group" style="border: 0.5px solid rgb(98, 98, 98);
+					 align-self: center;
+                     border-radius: 16px;
+                     background: #37474F;
+                     margin: 10px;
+                     padding: 30px;
+                     height: fit-content;
+                     width: 600px;
+                     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);">
+
+                <div style="
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        margin-bottom: 2em;
+                        color: aliceblue;
+                        ">
+                    <h1 style="font-family: 'Rokkitt', serif;">Cumulative distributions</h1>
+                </div>
 	<form id = "info" autocomplete="off">
 		<label for="distribution">Choose a distribution:</label>
 		<select id="distribution" onchange="change()">
@@ -64,12 +90,12 @@
 				<td><label for="x" id="xl">\(x = \)</label></td>
 				<td class="input"><input type="text" id="x" oninput="outputCumulativeProbability()"></td>
 
-				<td><label for="pr" id="prl">\(P(X &lt= x)\)</label></td>
+				<td><label for="pr" id="prl">\(P(X &lt= x) = \)</label></td>
 				<td class="input"><input disabled type="text" id="pr"></td>
 			</tr>
 		</table><br>
 	</form>
-
+	</div>
 	<div id="graph" class="jxgbox" style="height:480px;"></div>
 	
 	<script src="./js/helper.js"></script>
