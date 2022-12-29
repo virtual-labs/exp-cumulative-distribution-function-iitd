@@ -67,7 +67,7 @@
         "d": "We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(X=a) = F_{X}(a)-F_{X}(a-) = 0."
       },
       "correctAnswer": "a",
-      "difficulty": "Intermediate"
+      "difficulty": "beginner"
     },
     { 
       "question": "Let X is a real continuous random variable such that P(X = 1) = 0.2 and P(X=4)=0.8 then P(1<X<4)?",
