@@ -33,6 +33,22 @@
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
+
+"question": "Let X be a real random variable with F_{X} as the distribution function then P(a<X=<b) is given by?",
+      "answers": {
+        "a": "F_{X}(b)-F_{X}(a).",
+        "b": "F_{X}(b).",
+        "c": "F_{X}(a). ",
+        "d": "1-F_{X}(b)."
+      },
+      "explanations": {
+        "a": "By definition F_{X}(x)=P(X=<x), therefore F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) ",
+        "b": "F_{X}(b)=P(X=<b).",
+        "c": "F_{X}(a)=P(X=<a).",
+        "d": "1-F_{X}(b)=P(X>b)"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
     }
   ]
 }
