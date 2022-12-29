@@ -53,7 +53,7 @@
       "difficulty": "beginner"
     },
     { 
-      "question": "Let X is a real continuous random variable then P(X = a) = 0 for all a in R is given by?",
+      "question": "Let X is a real continuous random variable then P(X = a) for all a in R is given by?",
       "answers": {
         "a": "0 ",
         "b": "1",
@@ -63,11 +63,28 @@
       "explanations": {
         "a": "We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(X=a) = F_{X}(a)-F_{X}(a-) = 0. ",
         "b": "We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(X=a) = F_{X}(a)-F_{X}(a-) = 0.",
-        "c": " We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(X=a) = F_{X}(a)-F_{X}(a-) = 0..",
+        "c": " We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(X=a) = F_{X}(a)-F_{X}(a-) = 0.",
         "d": "We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(X=a) = F_{X}(a)-F_{X}(a-) = 0."
       },
       "correctAnswer": "a",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
+    },
+    { 
+      "question": "Let X is a real continuous random variable such that P(X = 1) = 0.2 and P(X=4)=0.8 then P(1<X<4)?",
+      "answers": {
+        "a": "0 ",
+        "b": "1",
+        "c": "0.6",
+        "d": "0.4"
+      },
+      "explanations": {
+        "a": "We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(1<X<4) = F_{X}(4)-F_{X}(1-) = 0.8-0.2=0.6. ",
+        "b": "We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(1<X<4) = F_{X}(4)-F_{X}(1-) = 0.8-0.2=0.6.",
+        "c": "We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(1<X<4) = F_{X}(4)-F_{X}(1-) = 0.8-0.2=0.6.",
+        "d": "We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(1<X<4) = F_{X}(4)-F_{X}(1-) = 0.8-0.2=0.6."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
     }
   ]
 }
