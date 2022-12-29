@@ -17,7 +17,8 @@
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
-      
+    },
+    { 
       "question": "Which of the following is NOT a property that the cumulative distribution function FX(x) of a random variable X must satisfy?",
       "answers": {
         "a": "0 =< FX(x) =< 1 for every x.",
@@ -33,7 +34,8 @@
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
-
+    },
+    {
 "question": "Let X be a real random variable with F_{X} as the distribution function then P(a<X=<b) is given by?",
       "answers": {
         "a": "F_{X}(b)-F_{X}(a).",
