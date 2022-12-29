@@ -27,7 +27,7 @@
         "d": "$(F(x)-G(x)).x  greater than or equal to 0$"
       },
       "explanations": {
-        "a": "F(x) is CDF of U than  F(x)= p(U≤ x) G(x) is CDF of 2V than G(x)= p(2V≤ x) G(x)=p(V≤ x/2) given U and V are identical therefore F(x)=p(V≤ x) and G(x)=p(V≤ x/2) F(x) - G(x)= p(V≤ x) - p(V≤ x/2) go by option  let x=2 than F(2)-G(2)= p(V≤ 2) - p(V≤1) p(V≤ x) $\rightarrow$ probability from -infinity  to x therefore  p(V≤ 2) - p(V≤1)≥ 0 ⇒F(x)-G(x)≥ 0 ",
+        "a": "F(x) is CDF of U than  F(x)= p(U≤ x) G(x) is CDF of 2V than G(x)= p(2V≤ x) G(x)=p(V≤ x/2) given U and V are identical therefore F(x)=p(V≤ x) and G(x)=p(V≤ x/2) F(x) - G(x)= p(V≤ x) - p(V≤ x/2) go by option  let x=2 than F(2)-G(2)= p(V≤ 2) - p(V≤1) p(V≤ x) $\rightarrow$ probability from -infinity to x therefore  p(V≤ 2) - p(V≤1)≥ 0 ⇒F(x)-G(x)≥ 0 ",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
