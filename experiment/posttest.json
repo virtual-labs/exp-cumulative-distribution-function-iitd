@@ -10,10 +10,10 @@
         "d": "Changes with CDF"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Area = P(-infinity < X < infinity)=F(infinity)-F(-infinity)=1.",
+        "b": "Area = P(-infinity < X < infinity)=F(infinity)-F(-infinity)=1.",
+        "c": "Area = P(-infinity < X < infinity)=F(infinity)-F(-infinity)=1.",
+        "d": "Area = P(-infinity < X < infinity)=F(infinity)-F(-infinity)=1."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
