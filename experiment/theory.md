@@ -1,6 +1,6 @@
 ### What is a Cumulative Distribution Function?
 Let $X$ be a real random variable. The function $F_X$ defined over $\mathbb{R}$ through\
-$F_X(x)  :=P_X((-\infty, x]) =P(X \leq x)$\
+$F_X(x)  :=P_X((-\infty, x])=P(X \leq x)$\
 is called the distribution function (or cumulative distribution function (cdf)) of the random variable $X$.
 
 ### Cumulative Distribution Function Properties
