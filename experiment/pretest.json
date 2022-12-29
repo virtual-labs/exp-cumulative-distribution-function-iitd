@@ -10,10 +10,10 @@
         "d": "zero"
       },
       "explanations": {
-        "a": "Let $X$ be a real random variable. The function $F_X$ defined over $\mathbb{R}$ through $F_X(x)  :=P_X((-\infty, x]) =P(X \leq x)$",
-        "b": "Let $X$ be a real random variable. The function $F_X$ defined over $\mathbb{R}$ through $F_X(x)  :=P_X((-\infty, x]) =P(X \leq x)$",
-        "c": "Let $X$ be a real random variable. The function $F_X$ defined over $\mathbb{R}$ through $F_X(x)  :=P_X((-\infty, x]) =P(X \leq x)$",
-        "d": "Let $X$ be a real random variable. The function $F_X$ defined over $\mathbb{R}$ through $F_X(x)  :=P_X((-\infty, x]) =P(X \leq x)$"
+        "a": "Let $X$ be a real random variable. The function $F_X$ defined over $R$ through $F_X(x)  :=P_X((-\infty, x]) =P(X \leq x)$",
+        "b": "Let $X$ be a real random variable. The function $F_X$ defined over $R$ through $F_X(x)  :=P_X((-\infty, x]) =P(X \leq x)$",
+        "c": "Let $X$ be a real random variable. The function $F_X$ defined over $R$ through $F_X(x)  :=P_X((-\infty, x]) =P(X \leq x)$",
+        "d": "Let $X$ be a real random variable. The function $F_X$ defined over $R$ through $F_X(x)  :=P_X((-\infty, x]) =P(X \leq x)$"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -33,6 +33,25 @@
         "d": "{F(2)-G(2)}2= {p(V≤ 2) - p(V≤1)}2 {F(x) - G(x)}.x≥ 0 for x≥ 0 now check for x≤ 0  let x=-2 {F(-2)-G(-2)}(-2)= {p(V≤ 2) - p(V≤1)}(-2) {p(V≤ 2) - p(V≤1)}≤ 0 therefore {p(V≤ 2) - p(V≤1)}(-2)≥ 0"  },
       "correctAnswer": "d",
       "difficulty": "beginner"
-    }
+    
+
+
+
+       "question": "Consider a random variable X that takes values +1 and −1 with probability 0.5 each. The values of the cumulative distribution function F(x) at x = −1 and +1 are?",
+      "answers": {
+        "a": "0 and 0.5",
+        "b": "0 and 1",
+        "c": "0.5 and 1",
+        "d": "0.25 and 0.75"
+      },
+      "explanations": {
+        "a": "Given that P(-1) =0.5 and P(1) =0.5. So, at all other points, p must be zero as the sum of all probabilities must be 1. F(X) is the cumulative distribution function and let P is the probability and given X is random variable, So F(X) = P[X ≤ x] F(-1)=P(X <= -1 = P(x = -1) =0.5 and F(1)=P(X <= 1) =P(x = -1) + P(x = 1) =0.5 + 0.5 =1",
+        "b": "Given that P(-1) =0.5 and P(1) =0.5. So, at all other points, p must be zero as the sum of all probabilities must be 1. F(X) is the cumulative distribution function and let P is the probability and given X is random variable, So F(X) = P[X ≤ x] F(-1)=P(X <= -1 = P(x = -1) =0.5 and F(1)=P(X <= 1) =P(x = -1) + P(x = 1) =0.5 + 0.5 =1 ",
+        "c": "Given that P(-1) =0.5 and P(1) =0.5. So, at all other points, p must be zero as the sum of all probabilities must be 1. F(X) is the cumulative distribution function and let P is the probability and given X is random variable, So F(X) = P[X ≤ x] F(-1)=P(X <= -1 = P(x = -1) =0.5 and F(1)=P(X <= 1) =P(x = -1) + P(x = 1) =0.5 + 0.5 =1",
+        "d": " Given that P(-1) =0.5 and P(1) =0.5. So, at all other points, p must be zero as the sum of all probabilities must be 1. F(X) is the cumulative distribution function and let P is the probability and given X is random variable, So F(X) = P[X ≤ x] F(-1)=P(X <= -1 = P(x = -1) =0.5 and F(1)=P(X <= 1) =P(x = -1) + P(x = 1) =0.5 + 0.5 =1"  },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+
+}
     ]
 }
