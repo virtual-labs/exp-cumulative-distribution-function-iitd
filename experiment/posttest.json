@@ -10,10 +10,10 @@
         "d": "Changes with CDF"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Area = P(-infinity < X < infinity)=F(infinity)-F(-infinity)=1.",
+        "b": "Area = P(-infinity < X < infinity)=F(infinity)-F(-infinity)=1.",
+        "c": "Area = P(-infinity < X < infinity)=F(infinity)-F(-infinity)=1.",
+        "d": "Area = P(-infinity < X < infinity)=F(infinity)-F(-infinity)=1."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -44,7 +44,7 @@
         "d": "1-F_{X}(b)."
       },
       "explanations": {
-        "a": "By definition F_{X}(x)=P(X=<x), therefore F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) ",
+        "a": "By definition F_{X}(x)=P(X=<x), therefore F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b).",
         "b": "F_{X}(b)=P(X=<b).",
         "c": "F_{X}(a)=P(X=<a).",
         "d": "1-F_{X}(b)=P(X>b)"
@@ -72,19 +72,19 @@
     { 
       "question": "Let X is a real continuous random variable such that P(X = 1) = 0.2 and P(X=4)=0.8 then P(1<X<4)?",
       "answers": {
-        "a": "0 ",
+        "a": "0",
         "b": "1",
         "c": "0.6",
         "d": "0.4"
       },
       "explanations": {
-        "a": "We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(1<X<4) = F_{X}(4)-F_{X}(1-) = 0.8-0.2=0.6. ",
+        "a": "We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(1<X<4) = F_{X}(4)-F_{X}(1-) = 0.8-0.2=0.6.",
         "b": "We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(1<X<4) = F_{X}(4)-F_{X}(1-) = 0.8-0.2=0.6.",
         "c": "We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(1<X<4) = F_{X}(4)-F_{X}(1-) = 0.8-0.2=0.6.",
         "d": "We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(1<X<4) = F_{X}(4)-F_{X}(1-) = 0.8-0.2=0.6."
       },
       "correctAnswer": "c",
-      "difficulty": "intermediate"
+      "difficulty": "beginner"
     }
   ]
 }
