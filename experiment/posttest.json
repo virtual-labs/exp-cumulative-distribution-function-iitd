@@ -17,6 +17,22 @@
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
+      
+      "question": "Which of the following is NOT a property that the cumulative distribution function FX(x) of a random variable X must satisfy?",
+      "answers": {
+        "a": "0 =< FX(x) =< 1 for every x.",
+        "b": "F_{X}(x)=0 when x tends to infinty.",
+        "c": "F_{X}(x) is non-decreasing",
+        "d": "P(X>x)=1-FX(x)"
+      },
+      "explanations": {
+        "a": "By definiition CDF is P(X=<x) hence lies between 0 and 1.",
+        "b": "F_{X}(x)=1 when x tends to infinty because F_{X}(x)=P(X=<x).",
+        "c": " CDF is the summation of the Probabilities of discrete random variables. So CDF is always non-decreasing with finitely many jump-discontinuities.",
+        "d": "F_{X}(x)=P(X=<x)=1-P(X>x)"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
     }
   ]
 }
