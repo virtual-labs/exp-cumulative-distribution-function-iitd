@@ -51,6 +51,23 @@
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
+    },
+    { 
+      "question": "Let X is a real continuous random variable then P(X = a) = 0 for all a in R is given by?",
+      "answers": {
+        "a": "0 ",
+        "b": "1",
+        "c": "0.5",
+        "d": "0.25"
+      },
+      "explanations": {
+        "a": "We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(X=a) = F_{X}(a)-F_{X}(a-) = 0. ",
+        "b": "We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(X=a) = F_{X}(a)-F_{X}(a-) = 0.",
+        "c": " We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(X=a) = F_{X}(a)-F_{X}(a-) = 0..",
+        "d": "We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(X=a) = F_{X}(a)-F_{X}(a-) = 0."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
     }
   ]
 }
