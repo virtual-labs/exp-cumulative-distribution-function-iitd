@@ -36,7 +36,7 @@
       "difficulty": "beginner"
     },
     {
-"question": "Let X be a real random variable with F_{X} as the distribution function then P(a<X=<b) is given by?",
+"question": "Let X be a real random variable with F_{X} as the distribution function then P(X in (a,b]) is given by?",
       "answers": {
         "a": "F_{X}(b)-F_{X}(a).",
         "b": "F_{X}(b).",
