@@ -44,10 +44,10 @@
         "d": "1-F_{X}(b)."
       },
       "explanations": {
-        "a": "By definition F_{X}(x)=P(X=<x), therefore F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b).",
-        "b": "F_{X}(b)=P(X=<b).",
-        "c": "F_{X}(a)=P(X=<a).",
-        "d": "1-F_{X}(b)=P(X>b)"
+        "a": "By definition F_{X}(x)=P(X less than equal to x), therefore F_{X}(b)-F_{X}(a) = P(X less than equal to b)-P(X less than equal to a)=P(X in (a,b]).",
+        "b": "F_{X}(b)=P(X less than equal to b).",
+        "c": "F_{X}(a)=P(X less than equal to a).",
+        "d": "1-F_{X}(b)=P(X greater than b)"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -61,10 +61,10 @@
         "d": "0.25"
       },
       "explanations": {
-        "a": "We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(X=a) = F_{X}(a)-F_{X}(a-) = 0. ",
-        "b": "We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(X=a) = F_{X}(a)-F_{X}(a-) = 0.",
-        "c": " We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(X=a) = F_{X}(a)-F_{X}(a-) = 0.",
-        "d": "We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(X=a) = F_{X}(a)-F_{X}(a-) = 0."
+        "a": "We know F_{X}(b)-F_{X}(a) = P(X less than equal to b)-P(X less than equal to a), therefore P(X=a) = F_{X}(a)-F_{X}(a-) = 0. ",
+        "b": "We know F_{X}(b)-F_{X}(a) = P(X less than equal to b)-P(X less than equal to a), therefore P(X=a) = F_{X}(a)-F_{X}(a-) = 0.",
+        "c": "We know F_{X}(b)-F_{X}(a) = P(X less than equal to b)-P(X less than equal to a), therefore P(X=a) = F_{X}(a)-F_{X}(a-) = 0.",
+        "d": "We know F_{X}(b)-F_{X}(a) = P(X less than equal to b)-P(X less than equal to a), therefore P(X=a) = F_{X}(a)-F_{X}(a-) = 0."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
