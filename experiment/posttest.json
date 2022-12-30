@@ -70,7 +70,7 @@
       "difficulty": "beginner"
     },
     { 
-      "question": "Let X is a real continuous random variable, find P(1<X<4) given that P(X = 1) = 0.2 and P(X=4)=0.8.",
+      "question": "Let X is a real continuous random variable, such that P(X = 1) = 0.2 and P(X=4)=0.8 then what is the probability of X lying between 1 and 4?",
       "answers": {
         "a": "0",
         "b": "1",
