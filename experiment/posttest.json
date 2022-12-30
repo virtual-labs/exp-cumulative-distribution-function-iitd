@@ -70,7 +70,7 @@
       "difficulty": "beginner"
     },
     { 
-      "question": "Let X is a real continuous random variable such that P(X = 1) = 0.2 and P(X=4)=0.8 then P(1<X<4)?",
+      "question": "Let X is a real continuous random variable, find P(1<X<4) given that P(X = 1) = 0.2 and P(X=4)=0.8.",
       "answers": {
         "a": "0",
         "b": "1",
