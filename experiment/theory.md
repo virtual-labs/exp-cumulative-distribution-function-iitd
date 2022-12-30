@@ -9,3 +9,6 @@ Let $X$ be a real random variable defined over $(\Omega, \Im, P)$. The distribut
 2. $F_X\left(x^{+}\right):=\lim _{h \rightarrow 0^{+}} F_X(x+h)=F_X(x) \quad$ for all $x \in \mathbb{R}$.
 3. $\lim _{x \rightarrow \infty} F_X(x)=1$.
 4. $\lim _{x \rightarrow-\infty} F_X(x)=0$.
+
+
+![alttext](https://github.com/virtual-labs/exp-cumulative-distribution-function-iitd/blob/main/experiment/images/theory.png)
