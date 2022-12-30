@@ -78,10 +78,10 @@
         "d": "0.4"
       },
       "explanations": {
-        "a": "We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(1<X<4) = F_{X}(4)-F_{X}(1-) = 0.8-0.2=0.6.",
-        "b": "We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(1<X<4) = F_{X}(4)-F_{X}(1-) = 0.8-0.2=0.6.",
-        "c": "We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(1<X<4) = F_{X}(4)-F_{X}(1-) = 0.8-0.2=0.6.",
-        "d": "We know F_{X}(b)-F_{X}(a) = P(X=<b)-P(X=<a)=P(a<X=<b) therefore P(1<X<4) = F_{X}(4)-F_{X}(1-) = 0.8-0.2=0.6."
+        "a": "Probability of X lying between 1 and 4 = F_{X}(4)-F_{X}(1-) = 0.8-0.2=0.6.",
+        "b": "Probability of X lying between 1 and 4 = F_{X}(4)-F_{X}(1-) = 0.8-0.2=0.6.",
+        "c": "Probability of X lying between 1 and 4 = F_{X}(4)-F_{X}(1-) = 0.8-0.2=0.6.",
+        "d": "Probability of X lying between 1 and 4 = F_{X}(4)-F_{X}(1-) = 0.8-0.2=0.6."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
