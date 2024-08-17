@@ -1,3 +1,4 @@
+
 ### Experiment Procedure
 
 To run the experiment, one needs to follow the steps outlined below:
@@ -18,3 +19,6 @@ Once all parameters and the event are set, click the 'Go' button to start the ex
 After the experiment is initiated, the graphical representation of the cumulative distribution function will be displayed. This representation provides insight into the probability distribution of the random variable and how it relates to the defined event.
 
 By following these steps sequentially, users can effectively experiment and observe the behavior of the cumulative distribution function based on different distributions and parameters.
+=======
+
+
