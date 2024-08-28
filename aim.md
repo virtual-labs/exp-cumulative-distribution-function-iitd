@@ -1,0 +1,1 @@
+This experiment aims to provide a graphical representation of the cumulative distribution function for the corresponding random variable and to calculate the probability of a certain event using the cumulative distribution function.

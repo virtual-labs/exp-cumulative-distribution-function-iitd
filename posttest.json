@@ -1,0 +1,94 @@
+
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the area under a cumulative distribution function?",
+      "answers": {
+        "a": "0",
+        "b": "1",
+        "c": "infinity",
+        "d": "Changes with CDF"
+      },
+      "explanations": {
+        "a": "Area = P(-infinity < X < infinity)=F(infinity)-F(-infinity)=1.",
+        "b": "Area = P(-infinity < X < infinity)=F(infinity)-F(-infinity)=1.",
+        "c": "Area = P(-infinity < X < infinity)=F(infinity)-F(-infinity)=1.",
+        "d": "Area = P(-infinity < X < infinity)=F(infinity)-F(-infinity)=1."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    { 
+      "question": "Which of the following is NOT a property that the cumulative distribution function F(x) of a random variable X must satisfy?",
+      "answers": {
+        "a": "0 <= F(x) <= 1 for every x",
+        "b": "F(x)=0 when x tends to infinty",
+        "c": "F(x) is non-decreasing",
+        "d": "P(X>x)=1-F(x)"
+      },
+      "explanations": {
+        "a": "By definiition CDF is P(X<=x) hence lies between 0 and 1.",
+        "b": "F(x)=1 when x tends to infinty because F(x)=P(X<=x).",
+        "c": " CDF is the summation of the Probabilities of discrete random variables. So CDF is always non-decreasing with finitely many jump-discontinuities.",
+        "d": "F(x)=P(X<=x)=1-P(X>x)"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+"question": "Let X be a real random variable with F as the distribution function, then P(X in (a,b]) is given by?",
+      "answers": {
+        "a": "F(b)-F(a)",
+        "b": "F(b)",
+        "c": "F(a) ",
+        "d": "1-F(b)"
+      },
+      "explanations": {
+        "a": "By definition F(x)=P(X <= x), therefore F(b)-F(a) = P(X <= b)-P(X <= a)=P(X in (a,b]).",
+        "b": "F(b)=P(X <= b).",
+        "c": "F(a)=P(X <= a).",
+        "d": "1-F(b)=P(X <= b)"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    { 
+      "question": "Let X is a real continuous random variable then P(X = a) for all a in R is given by?",
+      "answers": {
+        "a": "0 ",
+        "b": "1",
+        "c": "0.5",
+        "d": "0.25"
+      },
+      "explanations": {
+        "a": "We know F(b)-F_{X}(a) = P(X <= b)-P(X <= a), therefore P(X=a) = F(a)-F(a-) = 0. ",
+        "b": "We know F(b)-F_{X}(a) = P(X <= b)-P(X <= a), therefore P(X=a) = F(a)-F(a-) = 0.",
+        "c": "We know F(b)-F_{X}(a) = P(X <= b)-P(X <= a), therefore P(X=a) = F(a)-F(a-) = 0.",
+        "d": "We know F(b)-F_{X}(a) = P(X <= b)-P(X <= a), therefore P(X=a) = F(a)-F(a-) = 0."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    { 
+      "question": "Let X is a real continuous random variable, such that P(X = 1) = 0.2 and P(X=4)=0.8 then what is the probability of X lying between 1 and 4?",
+      "answers": {
+        "a": "0",
+        "b": "1",
+        "c": "0.6",
+        "d": "0.4"
+      },
+      "explanations": {
+        "a": "Probability of X lying between 1 and 4 = F(4)-F(1-) = 0.8-0.2=0.6.",
+        "b": "Probability of X lying between 1 and 4 = F(4)-F(1-) = 0.8-0.2=0.6.",
+        "c": "Probability of X lying between 1 and 4 = F(4)-F(1-) = 0.8-0.2=0.6.",
+        "d": "Probability of X lying between 1 and 4 = F(4)-F(1-) = 0.8-0.2=0.6."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
+
+
+
