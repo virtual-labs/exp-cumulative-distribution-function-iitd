@@ -1,1 +1,1 @@
-To visualize the Cumulative Distribution Function (CDF) for various probability distributions and to understand its significance in determining the probability of a random variable being less than or equal to a specified value.
+This experiment aims to provide a graphical representation of the cumulative distribution function for the corresponding random variable and to calculate the probability of a certain event using the cumulative distribution function.
