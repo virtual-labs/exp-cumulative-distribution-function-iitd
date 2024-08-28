@@ -1,1 +1,1 @@
-
+To visualize the Cumulative Distribution Function (CDF) for various probability distributions and to understand its significance in determining the probability of a random variable being less than or equal to a specified value.
